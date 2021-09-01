@@ -24,11 +24,12 @@ do jogo de tabuleiro Trilha de forma funcional e relevante.<br/>
 
 
 
-## <br/>Objetivo e regras do jogo de tabuleiro Trilha
+## <br/>Objetivo e o significado do Moinho
 O objetivo do jogo é remover as peças inimigas até que restem no máximo duas. <br/>
-Em qualquer fase do jogo, quando um jogador forma uma linha horizontal ou vertical com três de suas peças (chamada de <<moinho>>)
+Em qualquer fase do jogo, quando um jogador forma uma linha horizontal ou vertical com três de suas peças (chamada de <b>moinho</b>)
 sobre o tabuleiro, tem o direito de escolher uma peça inimiga em qualquer posição do tabuleiro para remover, desde que essa peça não
-faça parte de um <<moinho>> inimigo.<br/>
+faça parte de um <b>moinho</b> inimigo.<br/>
+
 
 	
 ## <br/>Como jogar
@@ -39,6 +40,7 @@ Temos três fases no jogo: Início do jogo, Movimentação das peças e Moviment
 - <b>Movimentação das peças</b>: após um jogador ficar com todas as suas peças no tabuleiro, começa a fase de movimentação das peças. As peças desse jogador podem se movimentar vertical ou horizontalmete uma casa, desde que não haja nenhuma peça no local. As peças não pulam casas vazias ou com peças, como o cavalo do Xadrez, sendo possível o movimento em apenas uma casa vazia por rodada.
 
 - <b>Movimentação livre das peças</b>: após um jogador ficar com  apenas três peças no tabuleiro, começa a fase de movimentação livre das peças. As peças desse jogador passam a se movimentar livremente pelo tabuleiro, ignorando demais peças ou espaços vazios, podendo ser posicionadas em qualquer casa vaiza do tabuleiro.<br/>
+
 
 
 ## <br/>Final de jogo
