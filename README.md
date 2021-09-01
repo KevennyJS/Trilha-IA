@@ -24,14 +24,14 @@ do jogo de tabuleiro Trilha de forma funcional e relevante.<br/>
 
 
 
-## Objetivo e regras do jogo de tabuleiro Trilha
+## <br/>Objetivo e regras do jogo de tabuleiro Trilha
 O objetivo do jogo é remover as peças inimigas até que restem no máximo duas. <br/>
 Em qualquer fase do jogo, quando um jogador forma uma linha horizontal ou vertical com três de suas peças (chamada de <<moinho>>)
 sobre o tabuleiro, tem o direito de escolher uma peça inimiga em qualquer posição do tabuleiro para remover, desde que essa peça não
 faça parte de um <<moinho>> inimigo.<br/>
 
 	
-## Como jogar
+## <br/>Como jogar
 Temos três fases no jogo: Início do jogo, Movimentação das peças e Movimentação livre das peças.	
 
 - <b>Início do jogo</b>: cada jogador escolhe uma cor e recebe nove peças com a respectiva cor. Os jogadores vão colocando as peças alternadamente nas posições de suas preferências (de forma semelhante à montagem inicial do jogo da velha). Tanto os cantos dos quadrados quanto os pontos médios de seus lados são posições iniciais (e de jogo) válidas.
@@ -41,7 +41,7 @@ Temos três fases no jogo: Início do jogo, Movimentação das peças e Moviment
 - <b>Movimentação livre das peças</b>: após um jogador ficar com  apenas três peças no tabuleiro, começa a fase de movimentação livre das peças. As peças desse jogador passam a se movimentar livremente pelo tabuleiro, ignorando demais peças ou espaços vazios, podendo ser posicionadas em qualquer casa vaiza do tabuleiro.<br/>
 
 
-## Final de jogo
+## <br/>Final de jogo
 O jogo termina com uma dessas três possibilidades:
 - Se um dos jogadores ficar com apenas duas peças, ocasionando uma derrota;
 - Se não houver mais nenhuma jogada válida, ocasionando em empate e
