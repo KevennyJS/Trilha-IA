@@ -28,4 +28,9 @@ Em qualquer fase do jogo, quando um jogador forma uma linha horizontal ou vertic
 sobre o tabuleiro, tem o direito de escolher uma peça inimiga em qualquer posição do tabuleiro para remover, desde que essa peça não
 faça parte de um <<moinho>> inimigo.
 
+## Como jogar
+Temos três fases no jogo: Início do jogo, Movimentação das peças e Movimentação livre das peças.	
+
+- Início do jogo: cada jogador escolhe uma cor e recebe nove peças com a respectiva cor. Os jogadores vão colocando as peças alternadamente nas posições de suas preferências (de forma semelhante à montagem inicial do jogo da velha). Tanto os cantos dos quadrados quanto os pontos médios de seus lados são posições iniciais (e de jogo) válidas.
+
 ---
