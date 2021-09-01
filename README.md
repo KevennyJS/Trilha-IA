@@ -19,6 +19,13 @@ O projeto Trilha está sendo desenvolvido por: <a href="https://github.com/rickw
 
 ## Objetivo do projeto
 O objetivo deste projeto é aplicar o mecanismo de busca "[nome do mecanismo de busca]" como cérebro do jogador adversário (máquina)
-do jogo de tabuleiro Trilha de forma funcional e relevante. 
+do jogo de tabuleiro Trilha de forma funcional e relevante.
+
+
+## Objetivo e regras do jogo de tabuleiro Trilha
+O objetivo do jogo é remover as peças inimigas até que restem no máximo duas. <br/>
+Em qualquer fase do jogo, quando um jogador forma uma linha horizontal ou vertical com três de suas peças (chamada de <<moinho>>)
+sobre o tabuleiro, tem o direito de escolher uma peça inimiga em qualquer posição do tabuleiro para remover, desde que essa peça não
+faça parte de um <<moinho>> inimigo.
 
 ---
