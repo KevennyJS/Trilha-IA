@@ -35,11 +35,11 @@ faça parte de um <b>moinho</b> inimigo.<br/>
 ## <br/>Como jogar
 Temos três fases no jogo: Início do jogo, Movimentação das peças e Movimentação livre das peças.	
 
-- <b>Início do jogo</b>: cada jogador escolhe uma cor e recebe nove peças com a respectiva cor. Os jogadores vão colocando as peças alternadamente nas posições de suas preferências (de forma semelhante à montagem inicial do jogo da velha). Tanto os cantos dos quadrados quanto os pontos médios de seus lados são posições iniciais (e de jogo) válidas.
+- <b>Início do jogo</b>: Cada jogador escolhe uma cor e recebe nove peças com a respectiva cor. Os jogadores colocam suas peças alternadamente nas posições de suas preferências (de forma semelhante à montagem inicial do jogo da velha). Tanto os cantos dos quadrados quanto os pontos médios de seus lados são posições iniciais válidas.
 
-- <b>Movimentação das peças</b>: após um jogador ficar com todas as suas peças no tabuleiro, começa a fase de movimentação das peças. As peças desse jogador podem se movimentar vertical ou horizontalmete uma casa, desde que não haja nenhuma peça no local. As peças não pulam casas vazias ou com peças, como o cavalo do Xadrez, sendo possível o movimento em apenas uma casa vazia por rodada.
+- <b>Movimentação das peças</b>: Após um jogador ficar com todas as suas peças no tabuleiro, começa a fase de movimentação das peças. As peças desse jogador podem se movimentar de forma vertical ou horizontal em uma casa, desde que não haja nenhuma peça no local. As peças não podem pular casas vazias, apenas se movimentar para um lado adjacente e obrigatoriamente vazio.
 
-- <b>Movimentação livre das peças</b>: após um jogador ficar com  apenas três peças no tabuleiro, começa a fase de movimentação livre das peças. As peças desse jogador passam a se movimentar livremente pelo tabuleiro, ignorando demais peças ou espaços vazios, podendo ser posicionadas em qualquer casa vaiza do tabuleiro.<br/>
+- <b>Movimentação livre das peças</b>: após um jogador ficar com  apenas três peças no tabuleiro, começa a fase de movimentação livre das peças, onde o jogador pode movimentar suas peças livremente pelo tabuleiro, ignorando demais peças ou espaços vazios, podendo ser posicionadas em qualquer casa vazia do tabuleiro.<br/>
 
 
 
