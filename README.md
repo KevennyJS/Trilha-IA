@@ -1,7 +1,7 @@
 <p align="center">
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/rickweb3/projeto-ia-trilha">
-  <a href="https://github.com/rickweb3/projeto-ia-trilha/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/rickweb3/projeto-ia-trilha">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/rickweb3/inteligencia-artificial-jogo-tabuleiro-trilha">
+  <a href="https://github.com/rickweb3/inteligencia-artificial-jogo-tabuleiro-trilha/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/rickweb3/inteligencia-artificial-jogo-tabuleiro-trilha">
   </a>
 </p>
 
