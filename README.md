@@ -14,7 +14,7 @@
 
 
 ## Sobre o projeto
-O projeto Trilha está sendo desenvolvido por: <a href="https://github.com/herbertcarvalho">Herbert Carvalho</a>, <a href="https://github.com/rickweb3">Henrique Prado</a>, <a href="https://github.com/JessicaPortilio">Jessica Portilio</a>, <a href="https://github.com/LilianeCosta767">Liliane Costa</a>, <a href="https://github.com/KevennyJS">Kevenny Santos</a> na disciplina Inteligência Artificial do curso Sistemas de Informação da Universidade Federal de Sergipe - Campus Itabaiana.
+O projeto Trilha está sendo desenvolvido por: <a href="https://github.com/herbertcarvalho">Herbert Carvalho</a>, <a href="https://github.com/rickweb3">Henrique Prado</a>, <a href="https://github.com/JessicaPortilio">Jessica Portilio</a>, <a href="https://github.com/LilianeCosta767">Liliane Costa</a> e <a href="https://github.com/KevennyJS">Kevenny Santos</a> na disciplina Inteligência Artificial do curso Sistemas de Informação da Universidade Federal de Sergipe - Campus Itabaiana.
 
 
 
