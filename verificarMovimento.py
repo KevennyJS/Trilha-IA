@@ -1,6 +1,9 @@
 from default import *
 
-#verifica se a peça pode se mover para a casa desejada
+'''
+funcionalidade: verifica se a peça pode se mover para a casa desejada
+param: (Index da posição inicial, Index da posição final)
+'''
 def verificarmovimento(posicaoInicial, posicaoFinal):
     #quinas
     if posicaoInicial == 0:
@@ -47,7 +50,10 @@ def verificarmovimento(posicaoInicial, posicaoFinal):
                 return True
         return False
 
-
+'''
+funcionalidade: função utilizada pela função verificarmovimento, para verificar disponibilidade da movimentação
+param: (Index inicial, primeiro Index da posição onde a movimentação é disponivel, ...)
+'''
 def condicaoMovimento(posicaoFinal, podeIrPara1, podeIrPara2, podeIrPara3 = None, podeIrPara4 = None):
     if podeIrPara3 is None:
         if posicaoFinal != podeIrPara1 and posicaoFinal != podeIrPara2:
