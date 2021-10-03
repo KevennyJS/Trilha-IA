@@ -1,4 +1,4 @@
-from moinhos import *
+from src.default.moinhos import *
 
 def verificarMoinho(moinhoParametro):
     moinhoOrdenado = list(moinhoParametro)

@@ -1,8 +1,6 @@
-import moinhos
-import verificarMoinho
-from default import *
-from verificarJogo import verificarJogo
-from verificarMovimento import *
+from src.default import moinhos
+from src.funcoes.verificarJogo import verificarJogo
+from src.funcoes.verificarMovimento import *
 
 
 def proximoJogador(jogador=None):

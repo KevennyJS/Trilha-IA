@@ -1,4 +1,4 @@
-from default import tabuleiro
+from src.default.default import tabuleiro
 
 
 # 1 = um perdeu

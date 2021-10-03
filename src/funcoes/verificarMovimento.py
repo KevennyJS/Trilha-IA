@@ -1,4 +1,4 @@
-from default import *
+from src.default.default import *
 
 '''
 funcionalidade: verifica se a peça pode se mover para a casa desejada
