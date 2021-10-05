@@ -40,12 +40,12 @@ def main():
                     print("O campo escolhido já possui uma peça, por favor, escolha outro campo.")
             else:
                 while True:
-                    iaEscolha = random.randint(0, 3)
+                    pecaEscolhida = iaEscolha = random.randint(0, 23)
                     if (tabuleiro[iaEscolha] is None):
                         tabuleiro[iaEscolha] = jogador
+                        pecasJogador2 -= 1
+                        changePlayer = True
                         break
-                pecasJogador2 -= 1
-                changePlayer = True
 
 
         else:
@@ -106,7 +106,7 @@ def main():
                 else:
                     if element.__contains__(movimentarPara):
                         listaMoinhosContidos.append(element)
-
+            print(listaMoinhosContidos)
             for filtered in listaMoinhosContidos:  # verificando se entre as separadas, alguma da "match" de moinho
                 if tabuleiro[filtered[0]] == jogador and tabuleiro[int(filtered[1])] == jogador and tabuleiro[int(filtered[2])] == jogador:
                     print("===================MOINHO====================")
@@ -116,7 +116,7 @@ def main():
                             tabuleiro[pecaRemover] = None
                     else:
                         while True:
-                            aleatorio = random.randint(0,24)
+                            aleatorio = random.randint(0,23)
                             if(tabuleiro[aleatorio] == 0):
                                 tabuleiro[aleatorio] = None
                                 print(f"A IA removeu a peça {aleatorio}")
