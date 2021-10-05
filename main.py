@@ -1,3 +1,6 @@
+import random
+
+import numpy
 from src.default import moinhos
 from src.funcoes.verificarJogo import verificarJogo
 from src.funcoes.verificarMovimento import *
@@ -25,18 +28,26 @@ def main():
         print(f"{tabuleiro} \n\n")
 
         if pecasJogador1 > 0 and pecasJogador2 > 0:  # se ainda houver peças para serem jogadas pelos usuarios
-            pecaEscolhida = int(input("Digite o campo escolhido: "))
-            if tabuleiro[pecaEscolhida] is None:
-                tabuleiro[pecaEscolhida] = jogador
-                if jogador == 0:
-                    pecasJogador1 -= 1
-                    changePlayer = True
+            if jogador == 0:
+                pecaEscolhida = int(input("Digite o campo escolhido: "))
+                if tabuleiro[pecaEscolhida] is None and pecaEscolhida < 24:
+                    if jogador == 0:
+                        tabuleiro[pecaEscolhida] = jogador
+                        pecasJogador1 -= 1
+                        changePlayer = True
                 else:
-                    pecasJogador2 -= 1
-                    changePlayer = True
+                    bloquearVerificacao = True
+                    print("O campo escolhido já possui uma peça, por favor, escolha outro campo.")
             else:
-                bloquearVerificacao = True
-                print("O campo escolhido já possui uma peça, por favor, escolha outro campo.")
+                while True:
+                    iaEscolha = random.randint(0, 3)
+                    if (tabuleiro[iaEscolha] is None):
+                        tabuleiro[iaEscolha] = jogador
+                        break
+                pecasJogador2 -= 1
+                changePlayer = True
+
+
         else:
             pecaEscolhida = int(input("Selecione a peça que deseja movimentar: "))
             movimentarPara = int(input("Digite o campo para onde deseja movimentar: "))
@@ -99,9 +110,17 @@ def main():
             for filtered in listaMoinhosContidos:  # verificando se entre as separadas, alguma da "match" de moinho
                 if tabuleiro[filtered[0]] == jogador and tabuleiro[int(filtered[1])] == jogador and tabuleiro[int(filtered[2])] == jogador:
                     print("===================MOINHO====================")
-                    pecaRemover = int(input("Selecione uma peça do adversario para remover: "))
-                    if tabuleiro[pecaRemover] != jogador and tabuleiro[pecaRemover] != None:
-                        tabuleiro[pecaRemover] = None
+                    if jogador == 0:
+                        pecaRemover = int(input("Selecione uma peça do adversario para remover: "))
+                        if tabuleiro[pecaRemover] != jogador and tabuleiro[pecaRemover] != None:
+                            tabuleiro[pecaRemover] = None
+                    else:
+                        while True:
+                            aleatorio = random.randint(0,24)
+                            if(tabuleiro[aleatorio] == 0):
+                                tabuleiro[aleatorio] = None
+                                print(f"A IA removeu a peça {aleatorio}")
+                                break
 
             if changePlayer:
                 jogador = proximoJogador(jogador)
