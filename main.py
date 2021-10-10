@@ -47,7 +47,6 @@ def main():
                         changePlayer = True
                         break
 
-
         else:
             pecaEscolhida = int(input("Selecione a peça que deseja movimentar: "))
             movimentarPara = int(input("Digite o campo para onde deseja movimentar: "))
@@ -106,7 +105,6 @@ def main():
                 else:
                     if element.__contains__(movimentarPara):
                         listaMoinhosContidos.append(element)
-            print(listaMoinhosContidos)
             for filtered in listaMoinhosContidos:  # verificando se entre as separadas, alguma da "match" de moinho
                 if tabuleiro[filtered[0]] == jogador and tabuleiro[int(filtered[1])] == jogador and tabuleiro[int(filtered[2])] == jogador:
                     print("===================MOINHO====================")
