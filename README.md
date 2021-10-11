@@ -19,7 +19,7 @@ O projeto Trilha está sendo desenvolvido por: <a href="https://github.com/herbe
 
 
 ## <br/>Objetivo do projeto
-O objetivo deste projeto é aplicar o mecanismo de busca "Busca gulosa pela melhor escolha" como cérebro do jogador adversário (máquina)
+O objetivo deste projeto é aplicar o mecanismo de busca "Busca em largura" como cérebro do jogador adversário (máquina)
 do jogo de tabuleiro Trilha de forma funcional e relevante.<br/>
 
 
